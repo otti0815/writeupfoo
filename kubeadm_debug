@@ -20,3 +20,6 @@ If you are on a systemd-powered system, you can try to troubleshoot the error wi
 	- 'journalctl -xeu kubelet'
 couldn't initialize a Kubernetes cluster
 
+
+I had the same problem, cancelled and ran reset and then the same init as previously but with --apiserver-advertise-address=<my_host_public_ip_address> -- and it worked.
+
