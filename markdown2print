@@ -1,0 +1,7 @@
+// browse to a github markdown page (default view, not raw)
+// open the developer console
+
+document.querySelector('#readme').setAttribute('style', 'position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; background-color: white')
+document.querySelector('body').appendChild(document.querySelector('#readme'))
+document.querySelector('.readme .markdown-body, .readme .plain').setAttribute('style', 'border: 0; padding: 0;')
+window.print()
