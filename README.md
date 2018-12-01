@@ -1,5 +1,5 @@
 # writeupfoo
-just a pastebin for debugging stuff
+just a place for debugging stuff 
 
 ## Kubeadm 
 all kuebadm things are listet in kubeadm_debug
